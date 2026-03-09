@@ -22,6 +22,14 @@ const jobData = [
         job: "IT/소프트웨어개발",
         location: "경기",
         url: "https://ostory.osan.ac.kr/ptfol/career/program/rcrt/totRec/findCampRcrtInfo.do?rcrtSeq=2600"
+    },
+    {
+        title: "[평택] (주)디케이티 기획팀 채용공고",
+        company: "(주)디케이티",
+        dept: "공학계열",
+        job: "기계/기계품질관리",
+        location: "경기",
+        url: "https://ostory.osan.ac.kr/ptfol/career/program/rcrt/totRec/findCampRcrtInfo.do?rcrtSeq=11"
     }
-    // 더 많은 데이터를 여기에 추가할 수 있어요!
+    // (여기에 나중에 2400개를 다 넣을 거야! 우선 이 4개로 테스트해보자)
 ];
