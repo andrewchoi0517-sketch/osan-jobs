@@ -4,19 +4,25 @@
     <meta charset="UTF-8">
     <title>오산대 보물찾기</title>
     <style>
-        body { font-family: sans-serif; text-align: center; padding: 50px; background-color: #f0f8ff; }
+        body { font-family: sans-serif; text-align: center; padding: 20px; background-color: #f4f7f9; }
+        .container { max-width: 600px; margin: auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
         h1 { color: #00458c; }
-        input { padding: 10px; width: 250px; border-radius: 5px; border: 1px solid #ccc; }
-        button { padding: 10px 20px; background-color: #00458c; color: white; border: none; border-radius: 5px; cursor: pointer; }
+        input { padding: 12px; width: 70%; border-radius: 5px; border: 1px solid #ccc; font-size: 16px; }
+        button { padding: 12px 20px; background-color: #00458c; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; }
     </style>
 </head>
 <body>
-    <h1>🎓 오산대 채용공고 보물찾기</h1>
-    <p>나의 학과나 관심 있는 일을 입력해봐!</p>
-    
-    <input type="text" id="userInput" placeholder="예: 컴퓨터과, 회계, 서울">
-    <button onclick="alert('곧 보물을 찾아줄게! 잠시만 기다려줘!')">찾아보기</button>
-    
-    <div id="list" style="margin-top: 20px;">(여기에 결과가 나올 거야)</div>
+    <div class="container">
+        <h1>🎓 오산대 채용 보물찾기</h1>
+        <p>학과나 직무를 입력해보세요!</p>
+        
+        <input type="text" id="userInput" placeholder="예: IT, 회계, 공학">
+        <button onclick="searchJobs()">찾기</button>
+        
+        <div id="list" style="margin-top: 20px;"></div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
